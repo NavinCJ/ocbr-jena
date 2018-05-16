@@ -11,10 +11,25 @@
   </parent>
   
   <dependencies>
+  	
   	<dependency>
   		<groupId>org.springframework.boot</groupId>
   		<artifactId>spring-boot-starter-web</artifactId>
   	</dependency>
+  	
+    <dependency>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>apache-jena-libs</artifactId>
+      <type>pom</type>
+      <version>3.7.0</version>
+	</dependency>
+  
+    <dependency>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-rdfconnection</artifactId>
+      <version>3.7.0</version>
+	</dependency>
+    
   </dependencies>
   
   <properties>
